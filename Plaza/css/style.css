@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:ital,wght@1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+html , body
+{
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    background-color: #E9E4F0;
+}
+/*Plaza brand text*/
+.navbar-light .navbar-brand
+{
+    font-size: x-large;
+    font-family: 'Pacifico';
+    letter-spacing: 4px;
+    color: white;
+}
+.navbar-light .navbar-brand:hover
+{
+    color: black;
+}
+/* Modify the backgorund color */
+.navbar-custom-bg {
+	background: linear-gradient(to right, #C33764, #1D2671);
+   /* opacity: 0.8;*/
+}
+/*navbar links */
+@media (min-width: 768px) 
+{
+.navbar-toggle {
+    display: none;
+    }
+}
+.navbar-light .navbar-nav .nav-link 
+{
+    opacity: 1;
+    font-size: larger;
+    font-weight: 600;
+    color: white;
+}
+.navbar-light .navbar-nav .nav-link:hover
+{
+    background-color: #C33764;
+    border-radius: 5px;
+}
+
+/*SLIDER carousel 3images*/
+.carousel-item {
+    height: auto;
+    max-height: 93vh;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.carousel-item::before
+{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: black;
+    opacity: 0.4;
+}
+.carousel-caption
+{
+    bottom: 40px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+/*start footer */
+.container-fluid1 {
+
+    height: 50%;
+    overflow: hidden;
+    background: linear-gradient(to right, #C33764, #1D2671);
+    color: #627482
+}
+
+small {
+    font-size: calc(12px + (15 - 12) * ((100vw - 360px) / (1600 - 360)))
+    
+}
+
+.bold-text {
+    color: black 
+}
+
+.mt-55 {
+    margin-top: calc(50px + (60 - 50) * ((100vw - 360px) / (1600 - 360))) !important
+}
+
+h3 {
+    font-size: calc(34px + (40 - 34) * ((100vw - 360px) / (1600 - 360))) !important
+}
+
+.social {
+    font-size: 21px !important
+}
+
+.rights {
+    font-size: calc(10px + (12 - 10) * ((100vw - 360px) / (1600 - 360)))
+}
+/*ends footer */
+/*btn reserve a room */
+.Res-room-btn
+{
+    font-weight: bold;
+    background-color: #C33764;
+   padding: 7px 25px 7px 25px;
+    color: white;
+}
+.Res-room-btn:hover
+{
+    color: white;
+    background-color: #1D2671;
+}
+
+/*btn reserve a room */
+/*btn back to top*/
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: #1D2671; /* Set a background color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 100%; /* Rounded corners */
+  }
+  
+  #myBtn:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
+  }
